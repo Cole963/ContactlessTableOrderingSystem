@@ -1,0 +1,119 @@
+/*UserAccountForm.jsp*/
+/*UserProfileForm.jsp*/
+/*----------------------------------------------------------------------*/
+.form-group {
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-group.pass input {
+	border-color: #2ecc71;
+}
+
+.form-group.fail input {
+	border-color: #e74c3c;
+}
+
+.form-group .symbol {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-group.pass .valid {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-group.fail .invalid {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-group small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-group.fail small {
+	visibility: visible;
+}
+
+.toggleHide {
+	visibility: hidden;
+}
+
+/*Ekki's*/
+/*----------------------------------------------------------------------*/
+img {
+	max-width: 100%;
+	height: 190px !important;
+	background: lightblue;
+	background: radial-gradient(white 30%, lightblue 70%);
+}
+
+.table tbody td,
+.table thead th {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.btn-change {
+	box-shadow: none;
+	font-size: 25px;
+}
+
+.formQuantity {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.formQuantity input {
+	text-align: center;
+}
+
+#checkoutButton {
+	color: #FFFFFF;
+}
+
+.centeredText {
+	font-size: 30px;
+	text-align: center;
+	padding: 70px 0;
+}
+
+.searchMenu {
+	width: 600px;
+	height: 39px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+/*StaffHomePage.jsp*/
+/*----------------------------------------------------------------------*/
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+
+.welcome-text h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.welcome-text h2 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+}
